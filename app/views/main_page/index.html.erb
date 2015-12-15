@@ -1,2 +1,27 @@
-<h1>MainPage#index</h1>
-<p>Find me in app/views/main_page/index.html.erb</p>
+<div class="outer">
+  <div class="middle">
+    <div class="inner">
+      <h1 id="mainTitle">Jack Alexander</h1>
+      <p id="mainSubText">More details to come</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  var numDots = 0;
+  var original = $("#mainSubText").text();
+  var outString = $("#mainSubText").text();
+
+  setInterval(function () {
+    if (numDots < 3) {
+      outString += " .";
+      numDots += 1;
+    }
+    else
+    {
+      numDots = 0;
+      outString = original;
+    }
+    $("#mainSubText").html(outString);
+  }, 500);
+</script>
