@@ -84,5 +84,5 @@ test:
 production:
   <<: *default
   database: jalexander-website_production
-  username: jalexander-website
-  password: <%= ENV['JALEXANDER-WEBSITE_DATABASE_PASSWORD'] %>
+  username: ubuntu
+  password: postgres

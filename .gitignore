@@ -35,3 +35,9 @@ bower.json
 .powenv
 
 /.idea
+do_bundleinstall_deploy.sh
+start_passenger.sh
+restart_passenger.sh
+Passengerfile.json
+passenger.80.pid
+passenger.80.pid.lock
