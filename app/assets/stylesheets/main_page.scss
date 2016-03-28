@@ -68,6 +68,7 @@ body{
   border-top: 0px;
   border-style: solid;
   overflow: hidden;
+  cursor: default;
 }
 
 .selectedTabButton.rightTabButton{
@@ -76,4 +77,16 @@ body{
 
 .selectedTabButton.leftTabButton{
   background: linear-gradient(to left, #BBBBBB, white);
+}
+
+.bioElement{
+  text-align: left;
+  font-size: 24px;
+}
+
+#profilePic{
+  float: left;
+  width: 35%;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }

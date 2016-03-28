@@ -1,7 +1,4 @@
 var Portfolio = React.createClass({
-    handleClick: function(event) {
-        console.log(event);
-    },
     render: function () {
         return (
             <div className="outer">
