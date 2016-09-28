@@ -4,6 +4,7 @@ gem 'passenger'
 gem 'react-rails'
 
 gem 'tzinfo-data'
+gem 'therubyracer'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
