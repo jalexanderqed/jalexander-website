@@ -41,3 +41,5 @@ restart_passenger.sh
 Passengerfile.json
 passenger.80.pid
 passenger.80.pid.lock
+
+/db/schema.rb
